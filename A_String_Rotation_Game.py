@@ -9,6 +9,5 @@ for i in range(t):
         for j in range(1, n):
             if temp[j] != temp[j - 1]:
                 blocks += 1
-                
         ans = max(ans, blocks)
     print(ans)
